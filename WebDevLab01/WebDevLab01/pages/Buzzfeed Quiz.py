@@ -79,12 +79,12 @@ st.image("WebDevLab01/WebDevLab01/Images/kitties.jpg", use_container_width=True)
     #NEW
 kitties = st.text_input("Which word describes Cats the best?(Cute, Boring, Tedious, or Precious)")
 if kitties == "Precious":
-     st.write("Good answer...")
-     st.audio("WebDevLab01/WebDevLab01/youBetter.mp3", format="audio/mp3",autoplay=True)
+    st.write("Good answer...")
+    st.audio("WebDevLab01/WebDevLab01/youBetter.mp3", format="audio/mp3",autoplay=True)
     points += 45
 elif kitties == "Cute":
-     st.write("Good answer...")
-     st.audio("WebDevLab01/WebDevLab01/youBetter.mp3", format="audio/mp3",autoplay=True)
+    st.write("Good answer...")
+    st.audio("WebDevLab01/WebDevLab01/youBetter.mp3", format="audio/mp3",autoplay=True)
     points += 50
 elif kitties == "Boring":
     points += 25
