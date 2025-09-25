@@ -33,7 +33,7 @@ course_data = {
 experience_data = {
     "Project Manager": (["- Organized and led sparring tournaments and public demonstrations",
                                                                           "- Impressed many crowds and generated 34% bonus revenue."],"WebDevLab01/WebDevLab01/Images/tkdLABpic.JPG"),
-    "Public Performer":(["- Performed traditional martial arts material infront of large crowds"],"WebDevLab01/WebDevLab01/Images/auraLAB.JPG")
+    "Public Performer":(["- Performed traditional martial arts material infront of large crowds"],"WebDevLab01/WebDevLab01/Images/auraLab.JPG")
 }
 
 projects_data = {
