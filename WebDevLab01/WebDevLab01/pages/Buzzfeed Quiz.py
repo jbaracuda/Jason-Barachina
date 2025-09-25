@@ -77,7 +77,7 @@ elif music == "R&B":
 st.write('---')
 st.image("WebDevLab01/WebDevLab01/Images/kitties.jpg", use_container_width=True)
     #NEW
-kitties = st.text_input("Which word describes Cats the best?(Cute, Boring, Tedious, or Precious)")
+catPic = kitties = st.text_input("Which word describes Cats the best?(Cute, Boring, Tedious, or Precious)")
 if kitties == "Precious":
     st.write("Good answer...")
     st.audio("WebDevLab01/WebDevLab01/youBetter.mp3", format="audio/mp3",autoplay=True)
@@ -88,9 +88,11 @@ elif kitties == "Cute":
     points += 50
 elif kitties == "Boring":
     points += 25
+    catPic = st.image("WebDevLab01/WebDevLab01/Images/judge.jpg",use_container_width=True)
     st.write("How evil...")
     st.audio("WebDevLab01/WebDevLab01/boo-6377.mp3", format="audio/mp3",autoplay=True)
 elif kitties == "Tedious":
+    catPic = st.image("WebDevLab01/WebDevLab01/Images/judge.jpg",use_container_width=True)
     st.write("How evil...")
     st.audio("WebDevLab01/WebDevLab01/boo-6377.mp3", format="audio/mp3",autoplay=True)
 
